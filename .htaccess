@@ -1,0 +1,35 @@
+RewriteEngine On
+
+# Global
+RewriteRule ^admin$ admin.php
+RewriteRule ^home$ index.php
+RewriteRule ^login$ login.php
+
+#--------------------- view ---------------------
+
+# Service Realisation
+RewriteRule ^listeServiceRea$ view/pages/admin/serviceRea/liste.php
+RewriteRule ^corbeilleServiceRea$ view/pages/admin/serviceRea/corbeille.php
+
+# view Contact
+RewriteRule ^listeContact$ view/pages/admin/contact/liste.php
+
+# view Profil
+RewriteRule ^listeProfil$ view/pages/admin/profil/profil.php
+
+# User
+RewriteRule ^listeUser$ view/pages/admin/user/liste.php
+RewriteRule ^corbeilleUser$ view/pages/admin/user/corbeille.php
+
+#--------------------- controller ---------------------
+RewriteRule ^userMainController$ controller/user/UserMainController.php
+RewriteRule ^serviceReaMainController$ controller/serviceRea/ServiceReaMainController.php
+RewriteRule ^newseletterMainController$ controller/newseletter/NewseletterMainController.php
+RewriteRule ^contactMainController$ controller/contact/ContactMainController.php
+
+#--------------------- Model ---------------------
+RewriteRule ^userRepo$ model/UserRepository.php
+RewriteRule ^serviceReaRepo$ model/ServiceReaRepository.php
+RewriteRule ^newseletterRepo$ model/NewseletterRepository.php
+RewriteRule ^contactRepo$ model/ContactRepository.php
+
