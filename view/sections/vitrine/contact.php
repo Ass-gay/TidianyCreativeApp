@@ -1,62 +1,68 @@
 <div id="contact" class="content bg-silver-lighter" data-scrollview="true">
-			<div class="container">
-				<h2 class="content-title">Contact Us</h2>
-				<p class="content-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-					sed bibendum turpis luctus eget
+	<div class="container">
+		<h2 class="content-title">Contactez-nous</h2>
+		<p class="content-desc">
+			Vous avez un projet digital ? Une idée à concrétiser ?<br />
+			L’équipe Tidiany Creative est à votre écoute pour vous accompagner.
+		</p>
+
+		<div class="row">
+
+			<div class="col-lg-6" data-animation="true" data-animation-type="fadeInLeft">
+				<h3>Informations de contact</h3>
+				<p>
+					N’hésitez pas à nous contacter pour discuter de votre projet ou demander un devis personnalisé.
 				</p>
-				<!-- begin row -->
-				<div class="row">
-					<!-- begin col-6 -->
-					<div class="col-lg-6" data-animation="true" data-animation-type="fadeInLeft">
-						<h3>If you have a project you would like to discuss, get in touch with us.</h3>
-						<p>
-							Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus.
-						</p>
-						<p>
-							<strong>SeanTheme Studio, Inc</strong><br />
-							795 Folsom Ave, Suite 600<br />
-							San Francisco, CA 94107<br />
-							P: (123) 456-7890<br />
-						</p>
-						<p>
-							<span class="phone">+11 (0) 123 456 78</span><br />
-							<a href="mailto:hello@emailaddress.com" class="text-primary">seanthemes@support.com</a>
-						</p>
-					</div>
-					<!-- end col-6 -->
-					<!-- begin col-6 -->
-					<div class="col-lg-6 form-col" data-animation="true" data-animation-type="fadeInRight">
-						<form class="form-horizontal">
-							<div class="form-group row m-b-15">
-								<label class="col-form-label col-lg-3 text-lg-right">Name <span class="text-primary">*</span></label>
-								<div class="col-lg-9">
-									<input type="text" class="form-control" />
-								</div>
-							</div>
-							<div class="form-group row m-b-15">
-								<label class="col-form-label col-lg-3 text-lg-right">Email <span class="text-primary">*</span></label>
-								<div class="col-lg-9">
-									<input type="text" class="form-control" />
-								</div>
-							</div>
-							<div class="form-group row m-b-15">
-								<label class="col-form-label col-lg-3 text-lg-right">Message <span class="text-primary">*</span></label>
-								<div class="col-lg-9">
-									<textarea class="form-control" rows="10"></textarea>
-								</div>
-							</div>
-							<div class="form-group row m-b-15">
-								<label class="col-form-label col-lg-3 text-lg-right"></label>
-								<div class="col-lg-9 text-left">
-									<button type="submit" class="btn btn-theme btn-primary btn-block">Send Message</button>
-								</div>
-							</div>
-						</form>
-					</div>
-					<!-- end col-6 -->
-				</div>
-				<!-- end row -->
+
+				<p>
+					<strong>Tidiany Creative</strong><br />
+					Nayobé, Louga, Sénégal<br />
+					Téléphone : 78 718 35 27<br />
+					Email : gayeass425@gmail.com<br />
+				</p>
+
+				<p>
+					<strong>Horaires :</strong><br />
+					Lundi - Samedi : 09h00 - 18h00<br />
+					Dimanche : Fermé
+				</p>
 			</div>
-			<!-- end container -->
+
+			<div class="col-lg-6 form-col" data-animation="true" data-animation-type="fadeInRight">
+				<form class="form-horizontal">
+					
+					<div class="form-group row">
+						<label class="col-form-label col-lg-3 text-lg-right">Nom <span class="text-danger">*</span></label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" placeholder="Votre nom" />
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-form-label col-lg-3 text-lg-right">Email <span class="text-danger">*</span></label>
+						<div class="col-lg-9">
+							<input type="email" class="form-control" placeholder="Votre email" />
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-form-label col-lg-3 text-lg-right">Message <span class="text-danger">*</span></label>
+						<div class="col-lg-9">
+							<textarea class="form-control" rows="10" placeholder="Votre message"></textarea>
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<div class="col-lg-9 offset-lg-3">
+							<button type="submit" class="btn btn-theme btn-primary btn-block">
+								Envoyer le message
+							</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+
 		</div>
+	</div>
+</div>

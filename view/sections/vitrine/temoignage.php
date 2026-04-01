@@ -4,58 +4,41 @@
 				data-paroller-factor-md="0.01"
 				data-paroller-factor-xs="0.01">
 			</div>
-			<!-- end content-bg -->
-			<!-- begin container -->
 			<div class="container" data-animation="true" data-animation-type="fadeInUp">
-				<h2 class="content-title">Our Client Testimonials</h2>
-				<!-- begin carousel -->
+				<h2 class="content-title">Témoignages de nos clients</h2>
 				<div class="carousel testimonials slide" data-ride="carousel" id="testimonials">
-					<!-- begin carousel-inner -->
 					<div class="carousel-inner text-center">
-						<!-- begin item -->
 						<div class="carousel-item active">
 							<blockquote>
 								<i class="fa fa-quote-left"></i>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra, nulla ut interdum fringilla,<br />
-								urna massa cursus lectus, eget rutrum lectus neque non ex.
+
+								"Tidiany Creative m’a aidé à lancer mon activité en ligne très rapidement.<br /> Le travail est propre et professionnel, je suis satisfait."
 								<i class="fa fa-quote-right"></i>
 							</blockquote>
-							<div class="name"> — <span class="text-primary">Mark Doe</span>, Designer</div>
+							<div class="name"> — <span class="text-primary">Serigne Mbaye</span>, Commerçant à Touba</div>
 						</div>
-						<!-- end item -->
-						<!-- begin item -->
 						<div class="carousel-item">
 							<blockquote>
 								<i class="fa fa-quote-left"></i>
-								Donec cursus ligula at ante vulputate laoreet. Nulla egestas sit amet lorem non bibendum.<br />
-								Nulla eget risus velit. Pellentesque tincidunt velit vitae tincidunt finibus.
+								"J’ai commandé un logo et des affiches, le résultat est vraiment magnifique.<br /> Je recommande fortement."
 								<i class="fa fa-quote-right"></i>
 							</blockquote>
-							<div class="name"> — <span class="text-primary">Joe Smith</span>, Developer</div>
+							<div class="name"> — <span class="text-primary">Fatou Kiné</span>, Restauratrice à Dakar</div>
 						</div>
-						<!-- end item -->
-						<!-- begin item -->
 						<div class="carousel-item">
 							<blockquote>
 								<i class="fa fa-quote-left"></i>
-								Sed tincidunt quis est sed ultrices. Sed feugiat auctor ipsum, sit amet accumsan elit vestibulum<br />
-								fringilla. In sollicitudin ac ligula eget vestibulum.
+								"Service rapide, sérieux et à bon prix. Tidiany Creative <br /> comprend bien les besoins des clients."
 								<i class="fa fa-quote-right"></i>
 							</blockquote>
-							<div class="name"> — <span class="text-primary">Linda Adams</span>, Programmer</div>
+							<div class="name"> — <span class="text-primary">Cheikh Ndiaye</span>, Entrepreneur</div>
 						</div>
-						<!-- end item -->
 					</div>
-					<!-- end carousel-inner -->
-					<!-- begin carousel-indicators -->
 					<ol class="carousel-indicators m-b-0">
 						<li data-target="#testimonials" data-slide-to="0" class="active"></li>
 						<li data-target="#testimonials" data-slide-to="1" class=""></li>
 						<li data-target="#testimonials" data-slide-to="2" class=""></li>
 					</ol>
-					<!-- end carousel-indicators -->
 				</div>
-				<!-- end carousel -->
 			</div>
-			<!-- end containter -->
 		</div>

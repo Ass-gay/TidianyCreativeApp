@@ -1,99 +1,101 @@
 <div id="pricing" class="content" data-scrollview="true">
-			<div class="container">
-				<h2 class="content-title">Our Price</h2>
-				<p class="content-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-					sed bibendum turpis luctus eget
-				</p>
-				<!-- begin pricing-table -->
-				<ul class="pricing-table pricing-col-4">
-					<li data-animation="true" data-animation-type="fadeInUp">
-						<div class="pricing-container">
-							<h3>Starter</h3>
-							<div class="price">
-								<div class="price-figure">
-									<span class="price-number">FREE</span>
-								</div>
-							</div>
-							<ul class="features">
-								<li>1GB Storage</li>
-								<li>2 Clients</li>
-								<li>5 Active Projects</li>
-								<li>5 Colors</li>
-								<li>Free Goodies</li>
-								<li>24/7 Email support</li>
-							</ul>
-							<div class="footer">
-								<a href="#" class="btn btn-inverse btn-theme btn-block">Buy Now</a>
-							</div>
+	<div class="container">
+		<h2 class="content-title">Nos Tarifs</h2>
+		<p class="content-desc">
+			Découvrez nos différentes offres adaptées à vos besoins en création digitale.<br />
+			Tidiany Creative vous propose des solutions modernes, accessibles et professionnelles.
+		</p>
+
+		<ul class="pricing-table pricing-col-4">
+			
+			<li data-animation="true" data-animation-type="fadeInUp">
+				<div class="pricing-container">
+					<h3>Pack Starter</h3>
+					<div class="price">
+						<div class="price-figure">
+							<span class="price-number">50 000 FCFA</span>
 						</div>
-					</li>
-					<li data-animation="true" data-animation-type="fadeInUp">
-						<div class="pricing-container">
-							<h3>Basic</h3>
-							<div class="price">
-								<div class="price-figure">
-									<span class="price-number">$9.99</span>
-									<span class="price-tenure">per month</span>
-								</div>
-							</div>
-							<ul class="features">
-								<li>2GB Storage</li>
-								<li>5 Clients</li>
-								<li>10 Active Projects</li>
-								<li>10 Colors</li>
-								<li>Free Goodies</li>
-								<li>24/7 Email support</li>
-							</ul>
-							<div class="footer">
-								<a href="#" class="btn btn-inverse btn-theme btn-block">Buy Now</a>
-							</div>
+					</div>
+					<ul class="features">
+						<li>Site vitrine simple</li>
+						<li>Design basique</li>
+						<li>1 à 3 pages</li>
+						<li>Responsive (mobile)</li>
+						<li>Livraison rapide</li>
+						<li>Support 7 jours</li>
+					</ul>
+					<div class="footer">
+						<a href="#" class="btn btn-inverse btn-theme btn-block">Commander</a>
+					</div>
+				</div>
+			</li>
+
+			<li data-animation="true" data-animation-type="fadeInUp">
+				<div class="pricing-container">
+					<h3>Pack Business</h3>
+					<div class="price">
+						<div class="price-figure">
+							<span class="price-number">100 000 FCFA</span>
 						</div>
-					</li>
-					<li class="highlight" data-animation="true" data-animation-type="fadeInUp">
-						<div class="pricing-container">
-							<h3>Premium</h3>
-							<div class="price">
-								<div class="price-figure">
-									<span class="price-number">$19.99</span>
-									<span class="price-tenure">per month</span>
-								</div>
-							</div>
-							<ul class="features">
-								<li>5GB Storage</li>
-								<li>10 Clients</li>
-								<li>20 Active Projects</li>
-								<li>20 Colors</li>
-								<li>Free Goodies</li>
-								<li>24/7 Email support</li>
-							</ul>
-							<div class="footer">
-								<a href="#" class="btn btn-primary btn-theme btn-block">Buy Now</a>
-							</div>
+					</div>
+					<ul class="features">
+						<li>Site web professionnel</li>
+						<li>Design moderne personnalisé</li>
+						<li>Jusqu’à 5 pages</li>
+						<li>Optimisation SEO de base</li>
+						<li>Formulaire de contact</li>
+						<li>Support 1 mois</li>
+					</ul>
+					<div class="footer">
+						<a href="#" class="btn btn-inverse btn-theme btn-block">Commander</a>
+					</div>
+				</div>
+			</li>
+
+			<li class="highlight" data-animation="true" data-animation-type="fadeInUp">
+				<div class="pricing-container">
+					<h3>Pack Premium</h3>
+					<div class="price">
+						<div class="price-figure">
+							<span class="price-number">200 000 FCFA</span>
 						</div>
-					</li>
-					<li data-animation="true" data-animation-type="fadeInUp">
-						<div class="pricing-container">
-							<h3>Lifetime</h3>
-							<div class="price">
-								<div class="price-figure">
-									<span class="price-number">$999</span>
-								</div>
-							</div>
-							<ul class="features">
-								<li>Unlimited Storage</li>
-								<li>Unlimited Clients</li>
-								<li>Unlimited Projects</li>
-								<li>Unlimited Colors</li>
-								<li>Free Goodies</li>
-								<li>24/7 Email support</li>
-							</ul>
-							<div class="footer">
-								<a href="#" class="btn btn-inverse btn-theme btn-block">Buy Now</a>
-							</div>
+					</div>
+					<ul class="features">
+						<li>Site web avancé ou application</li>
+						<li>Design haut de gamme</li>
+						<li>Pages illimitées</li>
+						<li>SEO avancé</li>
+						<li>Base de données</li>
+						<li>Support 3 mois</li>
+					</ul>
+					<div class="footer">
+						<a href="#" class="btn btn-primary btn-theme btn-block">Commander</a>
+					</div>
+				</div>
+			</li>
+
+			<li data-animation="true" data-animation-type="fadeInUp">
+				<div class="pricing-container">
+					<h3>Pack Sur Mesure</h3>
+					<div class="price">
+						<div class="price-figure">
+							<span class="price-number">Sur devis</span>
 						</div>
-					</li>
-				</ul>
-			</div>
-			<!-- end container -->
-		</div>
+					</div>
+					<ul class="features">
+						<li>Projet personnalisé</li>
+						<li>Application mobile ou web</li>
+						<li>Design unique</li>
+						<li>Fonctionnalités avancées</li>
+						<li>Accompagnement complet</li>
+						<li>Support dédié</li>
+					</ul>
+					<div class="footer">
+						<a href="#" class="btn btn-inverse btn-theme btn-block">Demander un devis</a>
+					</div>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+</div>

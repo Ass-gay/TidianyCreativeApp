@@ -7,15 +7,14 @@
 			<!-- end content-bg -->
 			<!-- begin container -->
 			<div class="container home-content">
-				<h1>Welcome to Color Admin</h1>
-				<h3>Multipurpose One Page Theme</h3>
+				<h1>Bienvenue chez Tidiany Creative</h1>
+				<h3>Votre partenaire en solutions digitales modernes</h3>
 				<p>
-					We have created a multi-purpose theme that take the form of One-Page or Multi-Page Version.<br />
-					Use our <a href="#">theme panel</a> to select your favorite theme color.
+					Nous sommes une agence créative spécialisée dans le développement web, le design graphique.<br />
+					Nous transformons vos idées en projets innovants et professionnels. <br />
 				</p>
-				<a href="#" class="btn btn-theme btn-primary">Explore More</a> <a href="#" class="btn btn-theme btn-outline-white">Purchase Now</a><br />
+				<a href="#" class="btn btn-theme btn-primary">Explorez nos réalisations</a> <a href="#" class="btn btn-theme btn-outline-white">Contactez-nous</a><br />
 				<br />
-				or <a href="#">subscribe</a> newsletter
+				ou <a href="#">abonnez-vous à notre newsletter</a> pour suivre nos nouveautés
 			</div>
-			<!-- end container -->
 		</div>

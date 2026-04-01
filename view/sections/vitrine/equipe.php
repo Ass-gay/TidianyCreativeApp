@@ -1,15 +1,13 @@
 <div id="team" class="content" data-scrollview="true">
 			<div class="container">
-				<h2 class="content-title">Our Team</h2>
+				<h2 class="content-title">Notre Équipe</h2>
 				<p class="content-desc">
-					Phasellus suscipit nisi hendrerit metus pharetra dignissim. Nullam nunc ante, viverra quis<br /> 
-					ex non, porttitor iaculis nisi.
+					Une équipe passionnée par le digital, le design et l’innovation.<br />
+					Nous travaillons ensemble pour transformer vos idées en projets concrets et professionnels.
 				</p>
-				<!-- begin row -->
+				
 				<div class="row">
-					<!-- begin col-4 -->
 					<div class="col-lg-4">
-						<!-- begin team -->
 						<div class="team">
 							<div class="image" data-animation="true" data-animation-type="flipInX">
 								<img src="public/templates/templateVitrine/assets/img/user/user-1.jpg" alt="Ryan Teller" />
@@ -25,12 +23,8 @@
 								</div>
 							</div>
 						</div>
-						<!-- end team -->
 					</div>
-					<!-- end col-4 -->
-					<!-- begin col-4 -->
 					<div class="col-lg-4">
-						<!-- begin team -->
 						<div class="team">
 							<div class="image" data-animation="true" data-animation-type="flipInX">
 								<img src="public/templates/templateVitrine/assets/img/user/user-2.jpg" alt="Jonny Cash" />
@@ -46,12 +40,8 @@
 								</div>
 							</div>
 						</div>
-						<!-- end team -->
 					</div>
-					<!-- end col-4 -->
-					<!-- begin col-4 -->
 					<div class="col-lg-4">
-						<!-- begin team -->
 						<div class="team">
 							<div class="image" data-animation="true" data-animation-type="flipInX">
 								<img src="public/templates/templateVitrine/assets/img/user/user-3.jpg" alt="Mia Donovan" />
@@ -67,11 +57,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- end team -->
 					</div>
-					<!-- end col-4 -->
 				</div>
-				<!-- end row -->
 			</div>
-			<!-- end container -->
 		</div>
