@@ -27,9 +27,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	
 	<!-- ==================  VALIDATION JS SERVICE_REA ================== -->
-	<script src="public/js/Validator.js"></script>
-	<script src="public/js/serviceRea.js"></script>
-	<script src="public/js/confirmDelet.js"></script>
+	<script src="public/js/global/Validator.js"></script>
+	<script src="public/js/serviceRea/addFrmValidator.js"></script>
+	<script src="public/js/serviceRea/editFrmValidator.js"></script>
+	<script src="public/js/serviceRea/confirmDelet.js"></script>
+	<script src="public/js/serviceRea/confirmRestaurer.js"></script>
+	<script src="public/js/serviceRea/confirmSupDef.js"></script>
+	<script src="public/js/serviceRea/showHide.js"></script>
 	
 
 

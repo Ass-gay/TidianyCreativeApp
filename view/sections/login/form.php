@@ -32,7 +32,12 @@
 							<div class="checkbox checkbox-css m-b-20">
 								<input type="checkbox" id="remember_checkbox" name="remember" /> 
 								<label for="remember_checkbox">Remember Me</label>
+								<!-- Retourner vers l'accueil -->
+								<small class="ml-2">
+								<a class="text-center fw-bold text-white h6" href="home">Retourner vers l'accueil</a>
+								</small>
 							</div>
+							
 
                             <!-- Connexion -->
 							<div class="login-buttons">

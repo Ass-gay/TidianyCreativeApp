@@ -1,13 +1,12 @@
 <div id="header" class="header navbar-default">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> <b>Color</b> Admin</a>
+				<a href="home" class="navbar-brand"><span class="navbar-logo"></span> <b>Tidiany</b> Creative</a>
 				<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 			</div>
-			<!-- end navbar-header --><!-- begin header-nav -->
 			<ul class="navbar-nav navbar-right">
 				<li class="navbar-form">
 					<form action="" method="POST" name="search">
@@ -90,7 +89,7 @@
 						<a href="javascript:;" class="dropdown-item">Calendar</a>
 						<a href="javascript:;" class="dropdown-item">Setting</a>
 						<div class="dropdown-divider"></div>
-						<a href="javascript:;" class="dropdown-item">Log Out</a>
+						<a href="logout" class="dropdown-item">Deconnexion</a>
 					</div>
 				</li>
 			</ul>

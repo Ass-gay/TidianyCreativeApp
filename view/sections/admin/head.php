@@ -19,4 +19,7 @@
 	<!-- ================== BEGIN PAGE LEVEL STYLETABLE  ================== -->
 	<link href="public/templates/templateAdmin/assets/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
 	<link href="public/templates/templateAdmin/assets/plugins/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+	
+	<!-- ================== STYLE CSS FILE  ================== -->
+	<link href="public/css/serviceRea/style.css" rel="stylesheet" />
 </head>

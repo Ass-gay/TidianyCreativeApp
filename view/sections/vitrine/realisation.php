@@ -1,134 +1,56 @@
+
+<!-- ========= Recuperation liste des realisation ========= -->
+<?php
+
+	require_once("model/ServiceReaRepository.php");
+	$serviceReaRepository = new ServiceReaRepository();
+
+	try {
+		$listeRealisations = $serviceReaRepository->getAllByEtatAndType(1, 'R');
+	} catch (Exception $error) {
+		echo "<P>Erreur lors du changement de liste des Realisations" . $error->getMessage() . "</P>";
+		$listeRealisations = [];
+	}
+?>
+
+<!-- ========= Tableau liste des realisation ========= -->
 <div id="work" class="content" data-scrollview="true">
-			<div class="container" data-animation="true" data-animation-type="fadeInDown">
-				<h2 class="content-title">Our Latest Work</h2>
-				<p class="content-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-					sed bibendum turpis luctus eget
-				</p>
-				<!-- begin row -->
-				<div class="row row-space-10">
-					<!-- begin col-3 -->
+	<div class="container" data-animation="true" data-animation-type="fadeInDown">
+
+		<!-- Titre -->
+		<h2 class="content-title"># Nos Realisation</h2>
+		<p class="content-desc">
+			Chez Tidiany Creative, nous transformons les idées en visuels impactants.
+			Chaque réalisation reflète notre créativité, notre expertise et notre engagement à offrir des résultats modernes,
+			uniques et adaptés aux besoins de nos clients.
+		</p>
+		<!-- Liste des realisation -->
+		<div class="row row-space-10">
+			<?php if(!empty($listeRealisations)) : ?>
+				<?php foreach ($listeRealisations as $realisation) : ?>
 					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
 						<div class="work">
+							<!-- Photo -->
 							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-1.jpg" alt="Work 1" /></a>
+								<a href="#"><img height="300px;" width="300px;"style="border:1px dashed #222" src="public/images/servicesRea/<?= htmlspecialchars($realisation['photo']); ?>" alt="Photo realisation" /></a>
 							</div>
+							<!-- Text -->
 							<div class="desc">
-								<span class="desc-title">Aliquam molestie</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
+								<!-- Nom -->
+								<span class="desc-title"> 
+										<?= htmlspecialchars($realisation['nom']); ?>
+								</span>
+								<!-- Description -->
+								<span class="desc-text" data-toggle="tooltip" data-placement="top" title="<?= htmlspecialchars($realisation['description']); ?>">
+									<?= htmlspecialchars(mb_substr($realisation['description'], 0, 20)) . (strlen($realisation['description']) > 20 ? "... Lire Plus" : ""); ?>
+								</span>
 							</div>
 						</div>
-						<!-- end work -->
 					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-2.jpg" alt="Work 2" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Quisque at pulvinar lacus</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-3.jpg" alt="Work 3" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Vestibulum et erat ornare</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-4.jpg" alt="Work 4" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Sed vitae mollis magna</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-5.jpg" alt="Work 5" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Suspendisse at mattis odio</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-6.jpg" alt="Work 6" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Aliquam vitae commodo diam</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-7.jpg" alt="Work 7" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Phasellus eu vehicula lorem</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-					<!-- begin col-3 -->
-					<div class="col-lg-3 col-md-4">
-						<!-- begin work -->
-						<div class="work">
-							<div class="image">
-								<a href="#"><img src="public/templates/templateVitrine/assets/img/work/work-img-8.jpg" alt="Work 8" /></a>
-							</div>
-							<div class="desc">
-								<span class="desc-title">Morbi bibendum pellentesque</span>
-								<span class="desc-text">Lorem ipsum dolor sit amet</span>
-							</div>
-						</div>
-						<!-- end work -->
-					</div>
-					<!-- end col-3 -->
-				</div>
-				<!-- end row -->
-			</div>
-			<!-- end container -->
+				<?php endforeach ?>
+				<?php else :?>
+					<p class="alert alert-danger text-center h3 fw-bold">Aucun realisations trouvee !</p>
+				<?php endif ?>
 		</div>
+	</div>
+</div>

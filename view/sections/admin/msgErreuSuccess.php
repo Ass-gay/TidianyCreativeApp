@@ -1,5 +1,5 @@
 <!-- ================== Message d'erreur ================== -->
-		<?php if(isset($_GET['error']) && $_GET['error'] = 1 && isset($_GET['message']) && isset($_GET['title'])) :?>
+		<?php if(isset($_GET['error']) && $_GET['error'] == 1 && isset($_GET['message']) && isset($_GET['title'])) :?>
 			<script>
 				Swal.fire({
 					icon: 'error',
@@ -10,7 +10,7 @@
 		<?php endif; ?>
 
 	<!-- ================== Message Success ================== -->
-	<?php if(isset($_GET['success']) && $_GET['success'] = 1 && isset($_GET['message']) && isset($_GET['title'])) :?>
+	<?php if(isset($_GET['success']) && $_GET['success'] == 1 && isset($_GET['message']) && isset($_GET['title'])) :?>
 		<script>
 			Swal.fire({
 				icon: 'success',

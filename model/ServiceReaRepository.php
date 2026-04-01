@@ -3,7 +3,7 @@
 
     class ServiceReaRepository extends DbRepository
     {
-        // Recuperer la liste des service ou realisation
+        // Recuperer la liste des service et des realisation
         public function getAll(int $etat)
         {
             $sql = "SELECT 
@@ -87,9 +87,14 @@
         // Permet de modifier une nouvelle réalisation où service
         public function edit($id, $nom, $description, $photo, $type, $updatedBy)
         {
-            $sql = "UPDATE servicereas
-                    SET nom = :nom, description = :description, photo = :photo, type = :type,
-                    updated_at = NOW(), :updated_by WHERE id = id ";
+          $sql = "UPDATE servicereas
+            SET nom = :nom, 
+                description = :description, 
+                photo = :photo, 
+                type = :type,
+                updated_at = NOW(), 
+                updated_by = :updated_by 
+            WHERE id = :id";
             try {
                 $statement = $this->db->prepare($sql);
                 $statement->execute([
@@ -143,7 +148,7 @@
         // Permet de supprime devinitivement un service ou realisation 
         public function delete(int $id)
         {
-            $sql = "DELETE * FROM servicereas WHERE id = :id";
+            $sql = "DELETE FROM servicereas WHERE id = :id";
             try {
                 $statement = $this->db->prepare($sql);
                 $statement->bindParam(':id', $id, PDO::PARAM_INT);
