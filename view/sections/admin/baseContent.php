@@ -1,13 +1,14 @@
 <div id="content" class="content">
 			<!-- begin breadcrumb -->
 			<ol class="breadcrumb float-xl-right">
-				<li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
-				<li class="breadcrumb-item"><a href="javascript:;">Dashboard</a></li>
-				<li class="breadcrumb-item active">Dashboard v3</li>
+				<li class="breadcrumb-item"><a href="home">Acceuil</a></li>
+				<li class="breadcrumb-item"><a href="listeServiceRea">Services / Realisation</a></li>
+				<li class="breadcrumb-item"><a href="listeUser">User</a></li>
+				<li class="breadcrumb-item"><a href="listeContact">Contact</a></li>
 			</ol>
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header mb-3">Dashboard v3</h1>
+			<h1 class="page-header mb-3">Administration Tidiany Creative</h1>
 			<!-- end page-header -->
 			<!-- begin daterange-filter -->
 			<div class="d-sm-flex align-items-center mb-3">
@@ -16,7 +17,6 @@
 					<span>1 Jun 2020 - 7 Jun 2020</span>
 					<b class="caret"></b>
 				</a>
-				<div class="text-muted f-w-600 mt-2 mt-sm-0">compared to <span id="daterange-prev-date">24 Mar-30 Apr 2020</span></div>
 			</div>
 			<!-- end daterange-filter -->
 			<!-- begin row -->
@@ -578,15 +578,9 @@
 									</div>
 									<a href="#" class="btn btn-xs btn-warning f-s-10 pl-2 pr-2">View campaign</a>
 								</div>
-								<!-- end col-8 -->
 							</div>
-							<!-- end row -->
 						</div>
-						<!-- end card-body -->
 					</div>
-					<!-- end card -->
 				</div>
-				<!-- end col-4 -->
 			</div>
-			<!-- end row -->
 		</div>

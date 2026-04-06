@@ -54,6 +54,7 @@
 	
 	<!-- ================== BASE JS ================== -->
 		<?php require_once("view/sections/vitrine/scripte.php"); ?>
+		
 
 	<!-- ================== SECTION Message erreur/success ================== -->
 		<?php require_once ("view/sections/admin/msgErreuSuccess.php"); ?>

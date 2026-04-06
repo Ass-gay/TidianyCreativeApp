@@ -36,6 +36,11 @@
 								<small class="ml-2">
 								<a class="text-center fw-bold text-white h6" href="home">Retourner vers l'accueil</a>
 								</small>
+
+								<!-- Reinitialissation mot de passe  -->
+								<small class="ml-2">
+								<a class="text-center fw-bold text-white h6" href="reinitEmail">Mot de passe oublie</a>
+								</small>
 							</div>
 							
 

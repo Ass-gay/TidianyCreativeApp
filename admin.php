@@ -4,13 +4,8 @@
 		<?php require_once ("view/sections/admin/head.php"); ?>
 <body>
 	
-		<!-- ================== Verification Session ================== -->
-		<?php 
-			session_start();
-			if (!$_SESSION['email']) {
-				header("Location: login?error=1&message=" . urldecode("Merci de vous connecter") . "&title=" .urldecode("Accès interdit ! !"));
-			}
-		?>
+	<!-- ================== Verification Session ================== -->
+		<?php require_once ("view/sections/admin/verifieSession.php"); ?>
 
 	<!-- ================== page-loader ================== -->
 		<?php require_once ("view/sections/admin/loader.php"); ?>

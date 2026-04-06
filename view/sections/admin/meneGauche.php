@@ -5,11 +5,11 @@
 						<a href="javascript:;" data-toggle="nav-profile">
 							<div class="cover with-shadow"></div>
 							<div class="image">
-								<img src="public/templates/templateAdmin/assets/img/user/user-13.jpg" alt="" />
+								<img src="public/images/user/<?= $photo ?>" alt="" />
 							</div>
 							<div class="info">
-								<b class="caret pull-right"></b>Sean Ngu
-								<small>Front end developer</small>
+								<b class="caret pull-right"></b><?= $nom ?>
+								<small><?= $email ?></small>
 							</div>
 						</a>
 					</li>
@@ -31,8 +31,7 @@
 						</a>
 						<ul class="sub-menu">
 							<li><a href="index.html">Dashboard v1</a></li>
-							<li><a href="index_v2.html">Dashboard v2</a></li>
-							<li class="active"><a href="index_v3.html">Dashboard v3</a></li>
+							
 						</ul>
 					</li>
 
@@ -46,7 +45,7 @@
 
 					<!-- ================== Contact ================== -->
 					<li class="has-sub">
-						<a href="javascript:;">
+						<a href="listeContact">
 							<i class="fa fa-tty"></i>
 							<span>Contact</span>
 						</a>
@@ -54,7 +53,7 @@
 
 					<!-- ================== Newseletter ================== -->
 					<li class="has-sub">
-						<a href="javascript:;">
+						<a href="listeNewseletter">
 							<i class="fa fa-envelope-open"></i>
 							<span>Newseletter</span>
 						</a>
@@ -62,7 +61,7 @@
 
 					<!-- ================== User ================== -->
 					<li class="has-sub">
-						<a href="javascript:;">
+						<a href="listeUser">
 							<i class="fa fa-users"></i>
 							<span>User</span>
 						</a>

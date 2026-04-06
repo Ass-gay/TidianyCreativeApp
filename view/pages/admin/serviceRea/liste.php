@@ -5,6 +5,10 @@
 <body>
 
 
+ 	<!-- ================== Verification Session ================== -->
+		<?php require_once ("../../../sections/admin/verifieSession.php"); ?>
+
+
 	<!-- ========= Recuperation liste servicerea Dans BD ========= -->
  	<?php
 
@@ -43,7 +47,7 @@
                 </li>
 				<li id="btn-show-liste" class="breadcrumb-item"><a href="#" class="btn btn-sm btn-dark text-white fw-bold">Afficher Liste</a></li>
 				<li id="btn-show-corbeille" class="breadcrumb-item"><a href="#" class="btn btn-sm btn-dark text-white fw-bold">Afficher Corbeille</a></li>
-				<li class="breadcrumb-item active"><a href="#" class="btn btn-sm btn-dark text-white fw-bold">User</a></li>
+				<li class="breadcrumb-item active"><a href="listeUser" class="btn btn-sm btn-dark text-white fw-bold">User</a></li>
 			</ol>
 	        <!-- ================== SECTION HEADER ================== -->
 			<h1 class="page-header"># Service / Réalisation</h1>
@@ -113,7 +117,7 @@
 												<?= htmlspecialchars(date("d/m/Y H:i:s"), strtotime($serviceRea['updated_at'])); ?> </br>
 												par <?= htmlspecialchars($serviceRea['updated_by_email']); ?>
 											<?php else :?>
-												<span class='text-danger fw-700'>jamais modifier</span>
+												<span class='text-danger f-w-700'>jamais modifier</span>
 											<?php endif?>
 										</td>
 

@@ -26,14 +26,44 @@
 	<!-- ================== CDN SWEETALERT ================== -->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	
-	<!-- ==================  VALIDATION JS SERVICE_REA ================== -->
+	<!-- ==================  GLOBAL JS ================== -->
 	<script src="public/js/global/Validator.js"></script>
-	<script src="public/js/serviceRea/addFrmValidator.js"></script>
-	<script src="public/js/serviceRea/editFrmValidator.js"></script>
-	<script src="public/js/serviceRea/confirmDelet.js"></script>
-	<script src="public/js/serviceRea/confirmRestaurer.js"></script>
-	<script src="public/js/serviceRea/confirmSupDef.js"></script>
-	<script src="public/js/serviceRea/showHide.js"></script>
+
+
+	
+
+	<!-- ================== STYLE JS APP================== -->
+	<script>
+		function loadScriptsIfPathEndsWhith(path, scriptsSources) {
+			if (window.location.pathname.endsWith(path)) {
+				scriptsSources.forEach(src => {
+					const script = document.createElement("script");
+					script.src = src;
+					document.body.appendChild(script);
+				});
+			}
+		}
+
+		loadScriptsIfPathEndsWhith("listeServiceRea",[
+			"public/js/serviceRea/addFrmValidator.js",
+			"public/js/serviceRea/editFrmValidator.js",
+			"public/js/serviceRea/confirmDelet.js",
+			"public/js/serviceRea/confirmRestaurer.js",
+			"public/js/serviceRea/confirmSupDef.js",
+			"public/js/serviceRea/showHide.js"
+
+		]);
+
+		loadScriptsIfPathEndsWhith("listeUser",[
+			"public/js/user/addFrmValidator.js",
+			"public/js/user/editFrmValidator.js",
+			"public/js/user/confirmDeletUser.js",
+			"public/js/user/confirmRestaurerUser.js",
+			"public/js/user/confirmSupDef.js",
+			"public/js/user/showHideUser.js",
+			"public/js/user/changePasswordValidator.js",
+		]);
+	</script>
 	
 
 

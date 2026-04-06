@@ -7,7 +7,7 @@
 		</p>
 
 		<div class="row">
-
+			<!-- Infos Contact -->
 			<div class="col-lg-6" data-animation="true" data-animation-type="fadeInLeft">
 				<h3>Informations de contact</h3>
 				<p>
@@ -28,33 +28,50 @@
 				</p>
 			</div>
 
+			<!-- Formulaire -->
 			<div class="col-lg-6 form-col" data-animation="true" data-animation-type="fadeInRight">
-				<form class="form-horizontal">
-					
+				<form action="contactMainController" method="post" id="contactForm" class="form-horizontal">
+
+					<!-- Nom -->
 					<div class="form-group row">
-						<label class="col-form-label col-lg-3 text-lg-right">Nom <span class="text-danger">*</span></label>
+						<label for="nom" class="col-form-label col-lg-3 text-lg-right">Nom <span class="text-danger">*</span></label>
 						<div class="col-lg-9">
-							<input type="text" class="form-control" placeholder="Votre nom" />
+							<input type="text" name="nom" id="nom" class="form-control" placeholder="Entre votre nom" />
+							<p class="error-message mt-2"></p>
 						</div>
 					</div>
 
+					<!-- Email -->
 					<div class="form-group row">
-						<label class="col-form-label col-lg-3 text-lg-right">Email <span class="text-danger">*</span></label>
+						<label for="email" class="col-form-label col-lg-3 text-lg-right">Email <span class="text-danger">*</span></label>
 						<div class="col-lg-9">
-							<input type="email" class="form-control" placeholder="Votre email" />
+							<input type="email" name="email" id="email" class="form-control" placeholder=" Entrer votre email" />
+							<p class="error-message mt-2"></p>
 						</div>
 					</div>
 
+					<!-- Sujet -->
 					<div class="form-group row">
-						<label class="col-form-label col-lg-3 text-lg-right">Message <span class="text-danger">*</span></label>
+						<label for="sujet" class="col-form-label col-lg-3 text-lg-right">Sujet <span class="text-danger">*</span></label>
 						<div class="col-lg-9">
-							<textarea class="form-control" rows="10" placeholder="Votre message"></textarea>
+							<input type="text" name="sujet" id="sujet" class="form-control" placeholder="De quoi sagit il ?" />
+							<p class="error-message mt-2"></p>
 						</div>
 					</div>
 
+					<!-- Message -->
+					<div class="form-group row">
+						<label for="message" class="col-form-label col-lg-3 text-lg-right">Message <span class="text-danger">*</span></label>
+						<div class="col-lg-9">
+							<textarea name="message" id="message" class="form-control" rows="5" placeholder="Laissez votre message..."></textarea>
+							<p class="error-message mt-2"></p>
+						</div>
+					</div>
+
+					<!-- Button Soumission -->
 					<div class="form-group row">
 						<div class="col-lg-9 offset-lg-3">
-							<button type="submit" class="btn btn-theme btn-primary btn-block">
+							<button type="submit" name="frmContact" class="btn btn-theme btn-primary btn-block">
 								Envoyer le message
 							</button>
 						</div>

@@ -152,7 +152,6 @@
                     $photoName = trim($photo['current-photo'] ?? '');
                 }
 
-
                 // Appel de la methode edit pour modifier dans la BD
                 try {
                    $reponse = $this->serviceReaRepository->edit( $id, $nom, $description, $photoName, $type, $updatedBy);
