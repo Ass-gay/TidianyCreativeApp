@@ -1,15 +1,14 @@
-document.addEventListener("DOMContentLoaded", function (){
-    const btnDeleteElements = document.querySelectorAll(".btn-delete");
+const btnDeleteElementsUser = document.querySelectorAll(".btn-delete-serviceRea");
     
-        btnDeleteElements.forEach((btnDelete) => {
-            btnDelete.addEventListener("click", function (event) {
+        btnDeleteElementsServiceRea.forEach((btnDeleteServiceRea) => {
+            btnDeleteServiceRea.addEventListener("click", function (event) {
             event.preventDefault();
 
-            const serviceReaId = this.getAttribute('data-id');
-            const serviceReaName = this.getAttribute('data-name');
+            const serviceReaId = this.getAttribute('data-id-serviceRea');
+            const serviceReaName = this.getAttribute('data-name-serviceRea');
 
             Swal.fire({
-                title: `Veuillez-vous bien supprimer la realisation  ${serviceReaName}`,
+                title: `Veuillez-vous bien supprimer l'utilisateur  ${serviceReaName}`,
                 text: "Cette action est irreversibile !",
                 icon: "warning",
                 showCancelButton: true,
@@ -23,5 +22,4 @@ document.addEventListener("DOMContentLoaded", function (){
                 }
             })
         })
-        })
-});
+    });

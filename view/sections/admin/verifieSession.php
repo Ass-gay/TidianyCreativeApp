@@ -7,4 +7,4 @@
 			$nom = $_SESSION['nom'];
 			$email = $_SESSION['email'];
 			$photo = $_SESSION['photo'];
-		?>
+		?> 

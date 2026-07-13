@@ -137,9 +137,9 @@
 
 											 <!-- Suppressions -->
 											 <a href="#"
-											 data-id="<?= htmlspecialchars($serviceRea['id']); ?>"
-											 data-name="<?= htmlspecialchars($serviceRea['nom']); ?>"
-											class="btn-delete" data-toggle="tooltip" data-placement="top" title="Supprimer">
+												data-id-serviceRea="<?= htmlspecialchars($serviceRea['id']); ?>"
+												data-name-serviceRea="<?= htmlspecialchars($serviceRea['nom']); ?>"
+												class="btn-delete-serviceRea" data-toggle="tooltip" data-placement="top" title="Supprimer">
 												<i class="fa fa-trash btn btn-danger fw-bold"></i>
 											 </a>
 										</td>

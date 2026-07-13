@@ -1,4 +1,4 @@
-const btnDeleteElementsUser = document.querySelectorAll(".btn-delete-user");
+    const btnDeleteElementsUser = document.querySelectorAll(".btn-delete-user");
     
         btnDeleteElementsUser.forEach((btnDeleteUser) => {
             btnDeleteUser.addEventListener("click", function (event) {
@@ -22,4 +22,4 @@ const btnDeleteElementsUser = document.querySelectorAll(".btn-delete-user");
                 }
             })
         })
-        });
+    });

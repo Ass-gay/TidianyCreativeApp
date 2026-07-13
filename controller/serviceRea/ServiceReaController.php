@@ -104,10 +104,10 @@
                 $result = $this->serviceReaRepository->desactivate($id, $deletedBy);
 
                 if ($result) {
-                    $this->setSuccessAndRedirect("Realisation/Service supprime(e) avec succes", "Supprission reusie");
+                    $this->setSuccessAndRedirect("Realisation/Service supprime(e) avec succes", "Supprission reusie", "listeServiceRea");
                 }
             } catch (Exception $error) {
-                $this->setErrorAndRedirect("Erreur lors de la suppression" . $error->getMessage(), "Erreur de suppression");
+                $this->setErrorAndRedirect("Erreur lors de la suppression" . $error->getMessage(), "Erreur de suppression", "listeServiceRea");
             }
         }
 
